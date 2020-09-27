@@ -1,0 +1,63 @@
+.outlook-header{
+  padding: 15px;
+  color:white;
+  background-color: black;
+}
+
+.new-message-div{
+background-color: #f3f2f1;
+padding: 10px;
+}
+
+.column-layout{
+  height: 92%;
+  width: 100%;
+  display: flex;
+}
+
+.main-panel{
+  width: 85%;
+  border: 1px solid #edebe9;
+  display: flex;
+  background-color: #faf9f8;
+}
+
+.list-panel{
+  width: 15%;
+  border: 1px solid #edebe9;
+  background-color: #f3f2f1;
+}
+
+.list-items{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.list-read{
+  padding:10px;
+  cursor: pointer;
+}
+
+.list-unread{
+  padding:10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.list-read:hover,.list-unread:hover,.list-items:hover{
+  background-color: #c7e0f4;
+}
+
+
+.middle-panel{
+  width: 40%;
+  border: 1px solid #edebe9;
+  background-color: #faf9f8;
+}
+
+.last-panel{
+  width: 60%;
+  border: 1px solid #edebe9;
+}
